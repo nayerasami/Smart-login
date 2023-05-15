@@ -1,0 +1,46 @@
+:root{
+    --blue:#23333d;
+    --light-blue:#17a2a5;
+}
+body{
+    background-color: var(--blue);
+}
+.login-box{
+    background-color: #23333d;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    width: 80%;
+position: absolute;
+top: 50px;
+}
+.title{
+    color: var(--light-blue);
+}
+.inp1{
+    width: 90%;
+    color: white;
+    background-color: transparent;
+}
+.inp1:focus{
+    background-color: transparent;
+    color: white;
+}
+
+span a{
+    text-decoration: none; 
+    color: white;
+}
+span a:hover{
+    color: white;
+    text-decoration-line: underline;
+}
+nav{
+    background-color: var(--blue);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.welcome-box{
+    background-color: #23333d;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    width: 80%;
+position: absolute;
+top: 200px;
+}

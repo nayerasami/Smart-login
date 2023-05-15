@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="..//css/bootstrap.min.css">
+    <link rel="stylesheet" href="..//css/style.css">
+</head>
+<body>
+<div class="container d-flex justify-content-center align-items-center position-relative">
+
+ <div class="login-box text-center p-5">
+<h1 class="title mb-3">Smart Login System</h1>
+<input type="email" name="e-mail" id="enterEmailInput" class="form-control inp1 m-auto" placeholder="Enter Your Email">
+<input type="password" name="pass"  class="form-control inp1 m-auto mt-3" id="enterPassInput" placeholder="Enter Your Password">
+<p class="text-danger mt-3 d-none" id="requiredField">All inputs is required</p>
+<p class="text-danger mt-3 d-none" id="invalidUser">Invlid User Name Or Password</p>
+
+<button class="btn btn-outline-primary m-auto mt-3" id="loginBtn">Login</button>
+<p class="text-light mt-2">Don't have an account?<span><a href="..//pages/sign.html">Sign Up</a></span></p>
+
+    </div>
+
+</div>
+
+
+<script src="..//js/jquery-3.6.2.min.js"></script>
+    <script src="..//js/bootstrap.bundle.js"></script>
+    <script src="..//js/index.js"></script>
+</body>
+</html>
